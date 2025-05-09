@@ -1,11 +1,29 @@
 body {
-    background-color: black;
+    background-color: #6B98D6;
 }
 
 main {
-    width: 1250px;
-    background-color: white;
-    margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.767);
+    height: 200px;
+}
+
+div {
+    background-color: #006AFF;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+div > .fantasma {
+    display: none;
+}
+
+div:hover > .fantasma {
+    display: block;
+}
+
+div:hover {
+    background-color: #4F76AE;
 }
